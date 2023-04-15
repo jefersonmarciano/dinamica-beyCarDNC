@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ByeCar</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" href="imagens/logoDNC.svg" sizes="32x32">
+    <link rel="icon" href="imagens/logoDNC.svg" sizes="192x192">
+
+    
+</head>
+<body>
+  <header id="header">
+    <img src="imagens/logoDNC.svg">
+    <h1>ByeCar</h1>
+  </header>
+
+  <div class="container">
+
+     <!-- img 1 -->
+  <div class="part1">
+    <h1 id="text1">Ter <span class="textBold">um moto por</span> assinatura <br> nunca foi tão fácil!</h1>
+    <img src="imagens/img1-removebg-preview.png" width="900">    
+
+  </div>
+<!-- fim da img 1-->
+
+  
+
+<!-- img 2 -->
+  <div class="part2">
+
+    <h1>Conheça nossas <span class="spanMotos">motos!</span> </h1>
+
+    <div class="bordaRetangulo">
+
+      <img src="imagens/vetorEsquerda.svg" onclick="direita()" id="cetas" >
+
+      <div class="retangulo" id="retangulo">
+        <h1 id="textScooter">Scooter Elétrica Voltz EV1</h1>
+        <img id="moto" src="imagens/moto.png">
+        <h1>A partir de</h1>
+        <div class="retPreco">
+          <h1>R$ 619,90</h1>
+        </div>
+
+        <h1>Plano de 30 meses</h1>
+        
+      </div>
+
+      <div class="retangulo" id="retangulo2" style="display: none;"> <!-- cb500 -->
+        <h1 id="textScooter">Honda CB 500X</h1>
+        <img id="moto" src="imagens/cb500.png">
+        <h1>A partir de</h1>
+        <div class="retPreco">
+          <h1 >R$ 619,90</h1>
+        </div>
+
+        <h1>Plano de 30 meses</h1>
+        
+      </div>
+
+      <img src="imagens/vetorDireita.svg" onclick="direita()" id="cetas"> 
+    </div>
+    
+
+    <button id="botao">Saiba mais</button>
+
+  </div>
+
+<!-- fim da img 2-->  
+<!-- fim do container -->
+
+  </div>
+   
+    <script src="main.js"></script>
+</body>
+</html>

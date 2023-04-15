@@ -1,0 +1,128 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway&display=swap');
+
+body{
+  margin-top: 0;
+  color: #265E70;
+}
+
+header{
+  background-color: #303030;
+  height: 100%; 
+  padding: 10px;
+  display: flex;
+}  
+#header h1{
+  font-family: 'Raleway', sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 48px;
+  line-height: 100px;
+  display: flex;
+  color: white;
+  text-align: center;
+}
+
+.textBold{
+  font-weight: bold;
+}
+.spanMotos{
+  color: #4DBCE9;
+  font-weight: bold;
+}
+.container{
+  display: flex;
+  justify-content: space-around;
+
+}
+.container h1{
+  font-weight: 500;
+}
+.part1{
+  height: 50%;
+   /* align-items: center; */
+  /* display: flex; */
+  /* flex-direction: column; */
+
+}
+#header img{
+  width: 150px;
+}
+#text1{
+  font-family: 'Verdana';
+  text-align: center;
+}
+.part2{
+  font-family: 'Verdana';
+  text-align: center;
+  position: relative;
+  
+}
+.retangulo{
+  flex-direction: column;
+  width: 750px;
+  height: 704px;
+  background: rgba(77, 188, 233, 0.75);
+  border-radius: 15px;
+  display: flex;
+  justify-content: center;
+  align-items: center; /* adiciona centralização vertical */
+  transition: all 1s; /* adiciona a transição */
+  color: white;
+}
+
+.slide {
+  transform: translateX(100%); /* move a div para a direita */
+}
+.bordaRetangulo{
+  display: flex;
+
+}
+.bordaRetangulo img{
+  margin: 20px;
+}
+#textScooter{
+  color: white;
+  font-weight: bold;
+}
+.retPreco h1{
+  color: #265E70;
+  font-weight: bold;
+}
+#moto{
+  
+  max-width: 100%; /* adiciona tamanho máximo horizontal */
+  max-height: 100%; /* adiciona tamanho máximo vertical */
+  width: 300px;
+  height: 300px;
+}
+
+.retPreco{
+  border-radius: 15px;
+  width: 200px;
+  height: 70px;
+  background-color: white;
+  display: flex;
+  text-align: center;
+  justify-content: center;
+  color: black;
+
+}
+
+
+#botao{
+  margin: 20px;
+  background-color: #4dbce9;
+  width: 300px;
+  height: 75px;
+  border-radius: 15px;
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  font-style: normal;
+  font-size: 30px;
+  font-weight: 400;
+  color: white;
+  cursor: pointer;
+  border: none;
+}
+#cetas{
+  cursor: pointer;
+}
